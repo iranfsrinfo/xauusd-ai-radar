@@ -1,3 +1,5 @@
+#xauusd-ai-radar
+
 XAUUSD AI Radar
 
 AI-powered real-time monitoring and signal system for XAUUSD.
@@ -15,5 +17,4 @@ Main Features
 
 Project Status
 
-Version 1 - Initial Development #xauusd-ai-radar
-Smart AI Market Monitoring for XAUUSD
+Version 1 - Initial development
