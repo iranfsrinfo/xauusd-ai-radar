@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101827">
+  <title>XAUUSD AI Radar</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 20px;
+      background: #101827;
+      color: #f1f5f9;
+      font-family: Arial, sans-serif;
+    }
+    .container { max-width: 600px; margin: auto; }
+    h1 { color: #f5c542; text-align: center; }
+    .subtitle { text-align: center; color: #aab6c8; }
+    .card {
+      background: #1c293b;
+      border: 1px solid #34445b;
+      border-radius: 14px;
+      padding: 18px;
+      margin-top: 18px;
+    }
+    .value {
+      font-size: 24px;
+      font-weight: bold;
+      color: #f5c542;
+    }
+    .status { color: #ffcc66; }
+    .muted { color: #aab6c8; line-height: 1.8; }
+    .signal {
+      text-align: center;
+      font-size: 22px;
+      padding: 15px;
+      border-radius: 10px;
+      background: #263449;
+    }
+    footer {
+      text-align: center;
+      color: #8290a5;
+      margin-top: 25px;
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <h1> XAUUSD AI RADAR </h1>
+    <p class="subtitle">سامانه هوشمند پایش و تحلیل طلا</p>
+
+    <section class="card">
+      <p>نماد معاملاتی</p>
+      <div class="value">XAUUSD</div>
+      <p class="muted">تایم‌فریم اصلی: M1</p>
+      <p class="muted">فیلتر روند: M5 و M15</p>
+    </section>
+
+    <section class="card">
+      <h3>وضعیت اتصال بازار</h3>
+      <p class="status" id="connection">هنوز به داده زنده متصل نیست</p>
+      <p class="muted">اتصال به منبع قیمت در مراحل بعدی انجام می‌شود.</p>
+    </section>
+
+    <section class="card">
+      <h3>آخرین وضعیت سیگنال</h3>
+      <div class="signal" id="signal">NO TRADE</div>
+      <p class="muted">تا زمان دریافت و تحلیل داده معتبر، هیچ سیگنال معاملاتی صادر نمی‌شود.</p>
+    </section>
+
+    <section class="card">
+      <h3>اطلاعات سیگنال</h3>
+      <p>Entry: —</p>
+      <p>Stop Loss: —</p>
+      <p>TP1: —</p>
+      <p>TP2: —</p>
+      <p>مدت اعتبار: —</p>
+    </section>
+
+    <footer>
+      XAUUSD AI Radar | Version 1.0
+    </footer>
+  </main>
+</body>
+</html>
